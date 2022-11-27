@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Desafio:</h1>
+    <ol>
+        <li>pedir para o usuário digitar um número</li>
+        <li>converter em número inteiro</li>
+        <li>pedir para o usuário digitar outro número</li>
+        <li>converter em número inteiro</li>
+        <li>
+            Mostrar um alert com o seguinte texto:
+            O resto da divisão de (n1) por (n2) é: (resultado);
+            o seguinte texto: (resultado);
+        </li>
+        <li>
+            Mostrar um alert com o seguinte texto:
+            O resto numero (n1) elevado a (n2) é:;
+        </li>
+    </ol>
+
+    <script>
+        //pedir para o usuário digitar um número
+        //converter em número inteiro
+        //pedir para o usuário digitar outro número
+        //converter em número inteiro
+
+        /*Mostrar um alert com o seguinte texto:
+        O resto da divisão de (n1) por (n2) é: (resultado);
+        o seguinte texto: (resultado);*/
+
+        /*Mostrar um alert com o seguinte texto:
+        O numero (n1) elevado a (n2) é:;
+        */
+
+
+    var n1 = prompt("Digite um número:")
+        n1 = parseFloat(n1);
+
+    var n2 = prompt("Digite outro número:")
+        n2 = parseFloat(n2);
+
+    var resto = (n1 % n2)
+    var elevado = (n1 ** n2)
+
+    alert("O resto da divisão de " + n1 + " e " + n2 + " é: " + resto)
+
+    alert("O número " + n1 + " elevado a " + n2 + " é: " + elevado)
+
+    </script>
+</body>
+</html>
