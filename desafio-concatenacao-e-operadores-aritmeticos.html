@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DESAFIO - CONCATENAÇÃO ENTRE STRINGS E OPERADORES ARITMÉTICOS</h1>
+
+    <script>
+        alert("Seja bem-vindo");
+        var nome = prompt("Insira seu nome:");
+        alert(nome + " é um belo nome.");
+        var idade = prompt("Insira sua idade:");
+        alert("Perfeito, " + idade + " anos de idade.");
+        alert("Obrigado por responder!");
+        alert("Você está liberado para somar!");
+
+        //pedir para o usuário digitar um numero
+        //pedir para o usuário digitar outro número
+        //mostrar a soma
+
+        var number1 = prompt("Digite um número para somar:");
+        var number2 = prompt("Digite outro número para somar:");
+        var n1 = parseInt(number1); //O comando parseInt transforma uma string em um número inteiro do tipo number
+        var n2 = parseInt(number2); //Criei uma variável para armazenar o valor resultante da conversão das strings "inputadas"
+        // IMPORTANTE: O parseInt descarta os decimais
+        // O parseFloat mantém os decimais
+
+        var soma = (n1 + n2);
+
+        alert("O Resultado da soma é: " + soma);
+
+        var multiplica = (n1 * n2);
+
+        alert("O resultante da multiplicação é: " + multiplica);
+
+        var divide = (n1 / n2);
+
+        alert("O resultante da divisão é: " + divide);
+
+        
+
+
+
+    </script>
+
+
+
+</body>
+</html>
