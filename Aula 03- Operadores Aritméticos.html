@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Aritméticos</title>
+</head>
+<body>
+    <h1>Aula 03 - Operadores Aritméticos</h1>
+
+    <p>
+        <ul>
+            <li>+ Adição</li>
+            <li>- Subtração</li> 
+            <li>* Multiplicação</li>
+            <li>/ Divisão </li>
+            <li>% Módulo </li>
+            <li>** Exponenciação </li>
+            <li>++ Incremento </li> 
+            <li>-- Decremento</li>
+        </ul>
+    </p>
+    
+    <script>
+
+        //Problema:
+        //Solicitar que o usuário digite dois números
+        //Armazenalos variáveis
+        //Calcular a média entre eles
+
+        alert("Seja bem-vindo a calculadora de média!");
+
+            var n1 = prompt("Digite o primeiro valor:");
+                n1 = parseFloat(n1);
+
+            var n2 = prompt("Digite o segundo valor:");
+                n2 = parseFloat(n2);
+                
+            var media = ( n1 + n2 ) / 2 ; //   <---  CONCEITO IMPORTANTE = PRECEDÊNCIA DE OPERADORES
+
+                /* A divisão e a multiplicação tem prioridade (precedência maior) entre os operadores aritméticos,
+                logo se não houverem os parenteses priorizando a soma:
+                    var media = ( n1 + n2 / 2)
+                O interpretador tende a executar a operação n2 / 2 antes da soma.
+                */
+
+        alert("A média entre os dois valores é: " + media );
+
+
+    </script>
+</html>
