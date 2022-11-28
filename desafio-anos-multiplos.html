@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--Para este exercício, 
+    mostre na tela todos os anos a partir de 1004 até o ano 2017, 
+    pulando de quatro em quatro anos.
+
+    Por exemplo:
+    1004
+    1008
+    1012
+
+    E assim por diante.
+
+    É como mostrar os anos bissextos, 
+    mas sem as regras para descobrir se um ano é bissexto ou não. 
+    (vamos imaginar que se o ano é múltiplo de quatro, ele é bissexto).-->
+
+<script></script>
+  var ano = 1004
+    while(ano <= 2024){
+        if((ano % 100 > 1) || (ano % 400 <1)){
+        document.write("O ano e bissexto <br>");
+      }
+        else {
+
+            document.write("Nao bissexto");
+      
+        }
+            ano = ano + 4
+            
+    </script>
+
+</body>
+</html>
