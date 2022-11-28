@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Operadores de Comparação</h1>
+
+    <p>
+        <ul>
+            <li>Pedir para o usuário inserir dois números</li>
+            <li>Mostrar um Booleano se a média for maior que 5</li>
+        </ul>
+    </p>
+
+    <script>
+    var n1 = prompt("Digite sua nota do primeiro bimestre:");
+n1 = parseFloat(n1);
+
+var n2 = prompt("Digite sua nota do segundo bimestre:");
+n2 = parseFloat(n2);
+
+var media = (n1 + n2) / 2;
+
+
+alert(media > 5);
+
+  if(media < 5) { //se a média for menor que 5 exibe "Reprovado"
+    alert("Reprovado")
+  }
+  else { //"Se não" exibe aprovado
+    alert("Aprovado, parabéns")
+  }
+
+    </script>
+</body>
+</html>
